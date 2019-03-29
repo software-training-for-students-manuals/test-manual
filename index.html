@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-        <!-- Manual title -->
-        <title>Test Manual</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Software manual provided by Software Training for Students at the University of Wisconsin.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel='stylesheet' id='uwmadison-fonts-css'  href='https://brand.wisc.edu/content/themes/uw-theme/dist/fonts/uw160/fonts.css?ver=1.1.1' type='text/css' media='all' /><link rel="stylesheet" type="text/css" href="../master-files/css/stylesheet.css">
-        <script src="../master-files/highlight.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="../master-files/smooth-scroll.js"></script>
-        <script src="../master-files/primary-functions.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="../master-files/ga.js"></script>
-    </head>
-    <body>
-        <!-- begin front page -->
-        <div class="manual-front-page">
-            <div id="coverpage-title">
-                <h1>Test Manual</h1>
-                <h2>Introduction to Using GitHub</h2>
-            </div>
-            <div id="about-page"></div>
-            <div id="outline"></div>
+<head>
+
+    <!-- Manual title -->
+    <title>Test Manual</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Software manual provided by Software Training for Students at the University of Wisconsin.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' id='uwmadison-fonts-css' href='https://brand.wisc.edu/content/themes/uw-theme/dist/fonts/uw160/fonts.css?ver=1.1.1' type='text/css' media='all' />
+    <link rel="stylesheet" type="text/css" href="../master-files/css/stylesheet.css">
+    <script src="../master-files/highlight.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../master-files/smooth-scroll.js"></script>
+    <script src="../master-files/primary-functions.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="../master-files/ga.js"></script>
+</head>
+
+<body>
+    <!-- begin front page -->
+    <div class="manual-front-page">
+        <div id="coverpage-title">
+            <h1>Test Manual</h1>
+            <h2>Introduction to Using GitHub</h2>
         </div>
-        <!-- BEGIN MAIN CONTENT -->
-        <section class="topic">
-            <h1>Introduction</h1>
-            <p>Updated by Tianchen</p>
-            <p>This change brought to you by Phil</p>
-            
-            <img src="images/test1.png" alt="test image">
-            <img src="images/test2.png" alt="Test image 2">
-            <p>Welcome to Python! This course has been designed to provide an introduction to the Python programming language and give you basic knowledge of its syntax and conventions. </p>
-            <p>Python is a dynamic programming language that is used in a variety of application domains. Python is based on object-oriented programming, similar to the likes of C++, Java, C#, Perl, Ruby, etc. This manual will include explanatory text along with code examples that you should be typing to follow along. All code is placed within snippets applicable to the language being used.</p>
-            <p>Python can be used in a wide variety of ways, and it has a vast ecosystem of libraries and tools for doing specialized kinds of programming - things like machine learning, statistics, language processing, and more. This class only scratches the surface of what Python can do, but it aims to give enough knowledge of the basics to explore more on your own.</p>
-            <h2>Python 3 vs. Python 2</h2>
-            <p>Python is somewhat unusual among programming languages in that two different versions of the language are currently in wide use at the same time, despite the newer version not being backward-compatible with the earlier version.</p>
-            <p>This manual is based on Python 3 (version 3.5 to be precise), which differs from the previous version Python 2.7 in certain fundamental ways. The most visible of these is the <span class="type">print</span> function, which did not need parentheses in version 2 but requires them in version 3. </p>
-            <p><a href="http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html" target="_blank">This article</a> explains some of the major differences between versions 2 and 3 and offers some advice regarding which version to choose if you are just starting out.</p>
-            <p> The code snippets and exercises in this class are written in Python 3 and may not work correctly (or in some cases, work at all) on Python 2. Python 2.7 has not been updated since 2010, but it still has a large install base and many libraries are written for Python 2. Python 2.7 comes pre-installed on some computers, most notably those running MacOS. </p>
-            <p> Python 3 is the present and future of the language and is generally a better starting point for beginners, but if you will be working with a code base that uses Python 2, it will be helpful for you to have an understanding of the differences between the versions.</p>
-            <h2>Running Python</h2>
-            <p>Note that for the exercises in this lesson we will be using Repl.it interactive windows within this webpage.  Outside of this lesson, you will be able to do everything we talked about within the terminal by following these instructions.  If not already installed, Python can be downloaded from the following website: <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. After a straightforward installation process, find and run the <strong>IDLE (Python 3.5)</strong> application. This should open up the Python interpreter shell which allows the user to enter code line by line for testing or trial and error. The interpreter provides many options including being able to open a new script window where complete Python programs can be written in a built in Integrated Development Environment (IDE).</p>
-            <div class="centered-image-large border"> <img src="images/idle.png" alt="Screenshot of the Python command prompt"> </div>
-            <p>Macs have Python built-in and can be found via the Terminal. Search for and open the Terminal via the applications menu or Spotlight search. In the terminal, type in <span class="type-text">python</span>. Note that this will be version 2.7. It is recommended that you use version 3.4 and above for this course. <span class="highlight">Please note that, on the DoIT computers, only the Windows partition has Python 3 installed.</span></p>
-            <div class="centered-image-large border"> <img src="images/terminal.png" alt="Screenshot of the MacOS Terminal window running Python"> </div>
-            <h2>Getting help</h2>
-            <p>Python has a very detailed help menu that can be entered through the Python interpreter. Once you have the Python Interpreter opened, type in the following:</p> <pre><code>#helpMenu
+        <div id="about-page"></div>
+        <div id="outline"></div>
+    </div>
+    <!-- BEGIN MAIN CONTENT -->
+    <section class="topic">
+        <h1>Introduction</h1>
+        <p>hello from naveena</p>
+        <p>Updated by Tianchen</p>
+        <p>This change brought to you by Phil</p>
+
+        <img src="images/test1.png" alt="test image">
+        <img src="images/test2.png" alt="Test image 2">
+        <p>Welcome to Python! This course has been designed to provide an introduction to the Python programming language and give you basic knowledge of its syntax and conventions. </p>
+        <p>Python is a dynamic programming language that is used in a variety of application domains. Python is based on object-oriented programming, similar to the likes of C++, Java, C#, Perl, Ruby, etc. This manual will include explanatory text along with code examples that you should be typing to follow along. All code is placed within snippets applicable to the language being used.</p>
+        <p>Python can be used in a wide variety of ways, and it has a vast ecosystem of libraries and tools for doing specialized kinds of programming - things like machine learning, statistics, language processing, and more. This class only scratches the surface of what Python can do, but it aims to give enough knowledge of the basics to explore more on your own.</p>
+        <h2>Python 3 vs. Python 2</h2>
+        <p>Python is somewhat unusual among programming languages in that two different versions of the language are currently in wide use at the same time, despite the newer version not being backward-compatible with the earlier version.</p>
+        <p>This manual is based on Python 3 (version 3.5 to be precise), which differs from the previous version Python 2.7 in certain fundamental ways. The most visible of these is the <span class="type">print</span> function, which did not need parentheses in version 2 but requires them in version 3. </p>
+        <p><a href="http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html" target="_blank">This article</a> explains some of the major differences between versions 2 and 3 and offers some advice regarding which version to choose if you are just starting out.</p>
+        <p> The code snippets and exercises in this class are written in Python 3 and may not work correctly (or in some cases, work at all) on Python 2. Python 2.7 has not been updated since 2010, but it still has a large install base and many libraries are written for Python 2. Python 2.7 comes pre-installed on some computers, most notably those running MacOS. </p>
+        <p> Python 3 is the present and future of the language and is generally a better starting point for beginners, but if you will be working with a code base that uses Python 2, it will be helpful for you to have an understanding of the differences between the versions.</p>
+        <h2>Running Python</h2>
+        <p>Note that for the exercises in this lesson we will be using Repl.it interactive windows within this webpage. Outside of this lesson, you will be able to do everything we talked about within the terminal by following these instructions. If not already installed, Python can be downloaded from the following website: <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. After a straightforward installation process, find and run the <strong>IDLE (Python 3.5)</strong> application. This should open up the Python interpreter shell which allows the user to enter code line by line for testing or trial and error. The interpreter provides many options including being able to open a new script window where complete Python programs can be written in a built in Integrated Development Environment (IDE).</p>
+        <div class="centered-image-large border"> <img src="images/idle.png" alt="Screenshot of the Python command prompt"> </div>
+        <p>Macs have Python built-in and can be found via the Terminal. Search for and open the Terminal via the applications menu or Spotlight search. In the terminal, type in <span class="type-text">python</span>. Note that this will be version 2.7. It is recommended that you use version 3.4 and above for this course. <span class="highlight">Please note that, on the DoIT computers, only the Windows partition has Python 3 installed.</span></p>
+        <div class="centered-image-large border"> <img src="images/terminal.png" alt="Screenshot of the MacOS Terminal window running Python"> </div>
+        <h2>Getting help</h2>
+        <p>Python has a very detailed help menu that can be entered through the Python interpreter. Once you have the Python Interpreter opened, type in the following:</p>
+        <pre><code>#helpMenu
 &gt;&gt;&gt; help()</code></pre>
-            <div class="centered-image-large border"> <img src="images/help.png" alt="Screenshot of the Python help tool"> </div>
-            <p>This will enter you into the Python help utility. You can enter any module, keyword or topic into this utility to get more information. For example, to get more information about strings you would type <span class="type-text">str</span> inside of the help module. This will bring up the help menu for strings specifically. To return to the interpreter, use <span class="type-text">quit</span>.</p> <pre><code>#helpMenuModule
+        <div class="centered-image-large border"> <img src="images/help.png" alt="Screenshot of the Python help tool"> </div>
+        <p>This will enter you into the Python help utility. You can enter any module, keyword or topic into this utility to get more information. For example, to get more information about strings you would type <span class="type-text">str</span> inside of the help module. This will bring up the help menu for strings specifically. To return to the interpreter, use <span class="type-text">quit</span>.</p>
+        <pre><code>#helpMenuModule
 &gt;&gt;&gt; help()
 help&gt; str	#help on strings...
 
 help&gt; quit	#quit help menu</code></pre>
-            <p>Another approach to get help on certain modules in Python without the help menu is to insert the module names as an argument when in the interpreter. We do not need to quit from this as it is displayed in the interpreter.</p> <pre><code>&gt;&gt;&gt; help(str)	#help on strings...</code></pre>
-            <p>If the built-in resources do not suffice, additional help can be found over at Lynda.com in the form of video tutorials. The Python website also offers support over at <a href="https://www.python.org/about/help/">https://www.python.org/about/help/</a></p>
-        </section>
+        <p>Another approach to get help on certain modules in Python without the help menu is to insert the module names as an argument when in the interpreter. We do not need to quit from this as it is displayed in the interpreter.</p>
+        <pre><code>&gt;&gt;&gt; help(str)	#help on strings...</code></pre>
+        <p>If the built-in resources do not suffice, additional help can be found over at Lynda.com in the form of video tutorials. The Python website also offers support over at <a href="https://www.python.org/about/help/">https://www.python.org/about/help/</a></p>
+    </section>
 
-        <!-- END MAIN CONTENT -->
-    </body>
+    <!-- END MAIN CONTENT -->
+</body>
